@@ -1,0 +1,29 @@
+/**
+
+ * @name Modern Indicators [Shad0w7#0320 Edit]
+ * @version 1.0
+ * @description A modern style to discord's boring indicators, revamped to be an overlay
+
+**/
+
+.wrapper-1ucjTd.modeSelected-1zApJ_:before {
+    height: 34px;
+}
+
+.unread-3zKkbm {
+    background-color: var(--unread-badge);
+    width: 2px;
+    border-radius: 0;
+    left: 0;
+    top: 0;
+    margin-top: 0;
+}
+
+:root {
+    --unread-badge: rgba(255, 255, 255, 0.6) !important;
+    --unread-background: rgba(255, 255, 255, 0.008) !important;
+    /*--selected-badge: rgb(112, 135, 215) !important;
+    --selected-background: rgba(112, 135, 215, 0.1) !important;
+    --hovered: rgba(79, 84, 92, 0.16) !important;
+    --active: rgba(79, 84, 92, 0.24) !important;*/
+}
